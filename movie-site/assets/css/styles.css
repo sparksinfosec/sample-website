@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* banner nav */
+.navmenu {
+  overflow: hidden;
+  background-color: #000000;
+  height: 115px;
+  width: 100%;
+}
+
+.navmenu a {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navmenu a:hover {
+  background-color: #b1b1b1;
+  color: black;
+}
+
+.navmenu a.active {
+  background-color: #595959;
+  color: white;
+}
+div.navmenu img{
+  float: left;
+}
+
+.clear {
+  clear: both;
+  height: 125px;
+}
+.smallClear{
+  clear: both;
+  height: 24px;
+}
+
+/* Page Styles */
+.blackheader {
+  padding: 20px;
+  text-align: center;
+  background: #000000;
+  color: white;
+  font-size: 25px;
+}
+
+
+.whiteheader {
+  padding: 45px;
+  text-align: center;
+  background: #ffffff;
+  color: black;
+  font-size: 25px;
+}
+
+.whiteheader p {
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.twobodycolumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+
+.threebodycolumn {
+  float: left;
+  width: 33%;
+  padding: 8px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.threebodyright img{
+  float: right;
+  padding: 5px 5px;
+}
+.centered {
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+.reviews-right{
+  border: black solid;
+  margin: 100px;
+  overflow: hidden;
+  text-align: right;
+  background-color: #000000;
+  color: #ffffff;
+  box-shadow: 5px 10px 8px 10px #888888;
+  line-height: 1.2em;
+}
+.reviews-left{
+  border: black solid;
+  margin: 100px;
+  overflow: hidden;
+  background-color: #000000;
+  color: #ffffff;
+  box-shadow: 5px 10px 8px 10px #888888;
+  line-height: 1.2em;
+}
+
+.reviews-left h2{
+  text-align: center;
+}
+.reviews-right h2{
+  text-align: center;
+}
+
+.reviews-left img{
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.reviews-right img{
+  float: right;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div.clearleft{
+  clear: left;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  text-align: left;
+}
+div.clearright{
+  clear: right;
+  text-align: right;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+a.whiteswitch{
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+
+ol li {
+  margin: 12px;
+}
+
+.formstructure{
+	max-width: 500px;
+	margin: auto;
+	padding: 10px;
+
+}
+label{
+  display: inline-block;
+	width: 175px;
+  padding: 10px;
+}
+textarea{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+input.submitbutton{
+  margin: 10px;
+  position: relative;
+  top: 25%;
+  left: 75%;
+}
+input[type=submit]{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+.formborder {
+  border-style: solid;
+  padding: 12px 14px;
+}
+
+.anchorButtons{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+#fnameCheck, #lnameCheck, #emailCheck, #commentCheck, #subEmail{
+  margin-top: -2px;
+  text-align: center;
+  color: #fa1100;
+}
+
+.hiddenButtons{
+  padding: 32px;
+  margin: 18px;
+}
+
+.hiddenButtons button{
+  display: block;
+  margin: auto;
+}
+.hiddenButtons h2{
+  text-align: center;
+}
+ #bestPicture{
+   display: none;
+ }
+ #heistFilms{
+   display: none;
+ }
+ #spy{
+   display: none;
+ }
+ #kingMan{
+   display: none;
+ }
+ .lookingForwardTable{
+   margin-top: auto;
+ }
+
+ .lookingForwardTable p{
+   text-align: center;
+   font-size: 20px;
+
+ }
+ .centerButton{
+   margin-top: -70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60px;
+ }
+
+ table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+ table, th, td{
+   border: solid black;
+   border-collapse: collapse;
+   padding: 10px;
+ }
+
+th{
+  background-color: black;
+  color: white;
+}
+tr{
+  background-color: #e6e3df;
+  font-weight: bold;
+}
+
+
+.buttonlinksRight{
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 50px;
+}
+.buttonlinksLeft{
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 50px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+a:hover{
+  background-color: #717171;
+}
+button:hover{
+  background-color: #717171;
+}
+.thankYou{
+  text-align: center;
+}
+
+/*footer nav how to make responsive? */
+.footermenu {
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.footermenu a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footermenu a:hover {
+  background-color: #b1b1b1;
+  color: black;
+}
+
+.footermenu a.active {
+  background-color: #595959;
+  color: white;
+}
+div.footermenu img{
+  float: right;
+}
