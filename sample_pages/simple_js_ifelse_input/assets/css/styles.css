@@ -1,0 +1,64 @@
+body{
+  background-color: black;
+}
+
+div.main{
+  background-color: teal;
+  margin: auto;
+  margin-top: 100px;
+  width: 50%;
+  padding: 24px;
+}
+
+.main img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main p{
+  text-align: center;
+  font-family: "Time New Roman", serif;
+  color: #181a18;
+  font-size: 18px;
+}
+.main h2{
+  text-align: center;
+}
+
+.head{
+  color: white;
+  text-align: center;
+}
+button{
+  background-color: white;
+  font-size: 16px;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+button:hover{
+  background-color: grey;
+}
+
+#iron{
+  display: none;
+}
+#thor{
+  display: none;
+}
+#hulk{
+  display: none;
+}
+#hawk{
+  display: none;
+}
+#widow{
+  display: none;
+}
+#cap{
+  display: none;
+}
+#wrongchoice{
+  display: none;
+}

@@ -1,0 +1,10 @@
+
+a.bottomlink {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
+
+ul.footernav li {
+	display: inline;
+}

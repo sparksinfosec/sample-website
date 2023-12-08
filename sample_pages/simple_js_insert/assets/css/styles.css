@@ -1,0 +1,27 @@
+body{
+  background-color: #262a40;
+  font-family: "Time New Roman", serif;
+  color: #ff9500;
+}
+
+div.section{
+  width: auto;
+  height: 600px;
+  margin: 250px auto 25px;
+  padding: 25px 100px;
+}
+div.image{
+  float: left;
+  margin: 25px;
+
+}
+div.text{
+  margin: 100px;
+  padding: 50px;
+
+}
+
+div.text p{
+  font-size: 20px;
+  line-height: 1.2em;
+}

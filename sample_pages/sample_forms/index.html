@@ -1,0 +1,138 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Stephen Sparks HW 3 Part 2</title>
+  <meta name="description" content="Basic HTML Template">
+  <meta name="author" content="Stephen Sparks">
+
+  <link rel="stylesheet" href="assets/styles.css">
+ <!--Stephen Sparks-->
+
+</head>
+
+<body>
+  <script src="js.js"></script>
+  <img src="assets/IFT301Login_small.jpg" alt="">
+  <h1>Enrollment Form</h1>
+  <form class="" action="index.html" method="post">
+    <div class="formstructure">
+      <h3>All Fields are REQUIRED</h3>
+
+    <div>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" required>
+    </div>
+    <div >
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" required>
+    </div>
+    <div>
+      <label for="street">Street Address</label>
+      <input type="text" id="street" name="street" required>
+    </div>
+    <div>
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" required>
+    </div>
+    <div >
+      <label for="state">State</label>
+      <input type="text" id="state" name="state" required>
+    </div>
+    <div>
+      <label for="zip">ZIP/Postal Code</label>
+      <input type="text" id="zip" name="zip" required>
+    </div>
+
+
+
+
+    <div>
+      <span>Title:</span>
+      <div>
+        <input type="radio" name="radio" id="rdo1" value="student" required>
+        <label for="rdo1">Student</label>
+      </div>
+      <div>
+        <input type="radio" name="radio" id="rdo2" value="staff" required>
+        <label for="rdo2">Staff</label>
+      </div>
+      <div>
+        <input type="radio" name="radio" id="rdo3" value="professor" required>
+        <label for="rdo3">Professor</label>
+      </div>
+    </div>
+
+    <div>
+      <span>Reason for Login:</span>
+      <div>
+        <input type="checkbox" name="check1" id="check1" value="grading">
+        <label for="check1">Grading</label>
+      </div>
+      <div>
+        <input type="checkbox" name="check2" id="check2" value="evaluation">
+        <label for="check2">Evaluation</label>
+      </div>
+      <div>
+        <input type="checkbox" name="check3" id="check3" value="updates">
+        <label for="check3">Updates</label>
+      </div>
+    </div>
+
+    <div>
+      <span>Enrolled Date:</span>
+      <select class="" name="select1">
+        <option value="expectmonth">--Month--</option>
+        <option value="jan">Jan.</option>
+        <option value="feb">Feb.</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="aug">Aug.</option>
+        <option value="sep">Sep.</option>
+        <option value="oct">Oct.</option>
+        <option value="nov">Nov.</option>
+        <option value="dec">Dec.</option>
+      </select>
+      <select class="" name="seclect2">
+        <option value="expectyear">--Year--</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+      </select>
+    </div>
+    <br>
+    <div class="">
+      <label for="textarea1">Special Notes</label><br>
+      <textarea name="textarea1" id="textarea1" rows="8" cols="30">Enter notes here...</textarea>
+    </div>
+    <div class="">
+      <input type="submit" name="btn1" value="Enter">
+    </div>
+
+
+
+  </div>
+
+
+  </form>
+
+ </body>
+</html>

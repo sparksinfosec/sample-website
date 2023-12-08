@@ -1,0 +1,42 @@
+body{
+  background-color: lightblue;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+table{
+  width: 50%;
+/* Maybe?  width: 310px;
+  height: 151px; */
+}
+td, th {
+  padding: 12px;
+}
+th.film {
+  background-color: #a9a9a9;
+}
+tbody.tv td {
+  text-align: center;
+}
+tbody.shows th {
+  font-weight: normal;
+  font-style: italic;
+}
+caption{
+  font-size: large;
+}
+tfoot{
+  text-align: center;
+  font-style: italic;
+  background-color: black;
+  color: white;
+}
+thead{
+  background-color: red;
+}
+tbody.bestof{
+  background-color: #4287f5
+}

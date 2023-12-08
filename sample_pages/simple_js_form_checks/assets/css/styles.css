@@ -1,0 +1,72 @@
+body{
+  background-color: #5cdb95;
+  font-weight: bold;
+}
+
+div{
+  background-color: #024f9c;
+}
+
+h1{
+  text-align: center;
+  color: #21211f;
+}
+
+
+.formstructure{
+	max-width: 500px;
+	margin: auto;
+  margin-top: 50px;
+	padding: 10px;
+  border: 2px solid;
+  box-shadow: 5px 10px 10px;
+}
+
+label{
+  display: inline-block;
+	width: 175px;
+  padding: 12px;
+  font-size: 18px
+}
+
+textarea{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input.submitbutton{
+  margin: 20px;
+  position: relative;
+  left: 38%;
+}
+
+input[type=submit]{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.formborder {
+  padding: 12px 14px;
+
+}
+
+input{
+  padding: 5px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fnameCheck, #lnameCheck, #emailCheck{
+  margin-top: -5px;
+  text-align: center;
+  color: #fa1100;
+
+}

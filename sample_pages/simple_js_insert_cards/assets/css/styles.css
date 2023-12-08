@@ -1,0 +1,56 @@
+body{
+  background-color: #7418c9;
+}
+
+h1{
+  text-align: center;
+  color: #e67c19;
+  letter-spacing: 1px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  margin: 30px 80px 40px 80px;
+  text-align: center;
+}
+
+.column h3{
+  text-align: center;
+}
+
+.column img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column ul{
+  text-align: left;
+  display: inline-block;
+}
+
+.cardstyles{
+  border: 2px solid;
+  box-shadow: 5px 10px #888888;
+  background-color: #e67c19;
+  font-size: 24px;
+  padding: 25px;
+}
+
+div.footer{
+  text-align: center;
+  display: block;
+}
+
+.footer a{
+  color: #ff7b00;
+  font-size: 20px
+}

@@ -1,0 +1,72 @@
+body {
+  background-color: hsl(120,73%,75%);
+  padding: 0px;
+  margin: 0px;
+}
+div.name{
+  color: firebrick;
+  font-family: "copperplate", fantasy;
+  letter-spacing: .1em;
+  font-size: 24px;
+  text-shadow: 2px 3px #000000;
+  text-align: center;
+  width: 600px;
+  margin: 250px auto 25px auto;
+}
+
+div.left{
+  width: 32%;
+  margin: 8px;
+  padding: 3px 5px;
+  float: left;
+  border-top: black solid;
+  border-width: thick;
+  text-align: center;
+  display: inline-block;
+  color: rgb(146,44,7);
+  color: #922c07;
+  color: hsl(16,91%,30%);
+  font-family: "Times New Roman", Times, serif:
+
+}
+
+div.center{
+  width: 32%;
+  margin:8px;
+  padding: 5px 5px;
+  float: left;
+  border: black double;
+  border-top: black solid;
+  border-top-width: thick;
+  text-align: center;
+  display: inline-block;
+  color: rgb(146,44,7);
+  color: #922c07;
+  color: hsl(16,91%,30%);
+  font-family: "Lucida Console", monospace;
+
+}
+
+div.right{
+  width: 32%;
+  margin: 8px;
+  padding: 3px 5px;
+  float: left;
+  border-top: black dashed;
+  border-width: thick;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  color: rgb(146,44,7);
+  color: #922c07;
+  color: hsl(16,91%,30%);
+  font-family: "Helvetica", sans-serif;
+}
+
+div.left, div.right p{
+  line-height: 1.5em;
+}
+div.left p{
+  font-size: 105%;
+  text-shadow: 1px 1px #000000;
+}

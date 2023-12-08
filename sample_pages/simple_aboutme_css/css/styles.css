@@ -1,0 +1,58 @@
+body {
+	font-family: helvettica;
+	background-color: lightblue;
+	font-size: 20px;
+    color: green;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size:  35;
+}
+
+p {
+  font-family: arial;
+  color: blue;
+  font-size: 20px;
+}
+span{
+  font-family: Times New Roman;
+  color: purple;
+  font-size: 20px;
+  padding: 10px;
+}
+div{
+	font-family: arial;
+  color: orange;
+  font-size: 20px;
+  padding:  10px;
+}
+.unordered{
+	font-family: Times New Roman;
+  color: green;
+  font-size: 30px;
+  padding: 10px;
+
+}
+.ordered{
+	font-family: arial;
+  color: red;
+  font-size: 15px;
+  padding: 10px;
+
+}
+ol{
+	color: red;
+}
+
+dt{
+	color: brown;
+}
+ul{
+	color:purple;
+}
+dd{
+	color: brown;
+}
