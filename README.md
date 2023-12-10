@@ -1,6 +1,7 @@
 # sample-website
 
 ## Some sample HTML, CSS, and Javascript projects from School and Personal Learning
+
 ---
 
 ### Includes:
